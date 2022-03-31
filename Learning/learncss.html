@@ -1,0 +1,58 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Learn CSS</title>
+<link rel="stylesheet" href="learncss.css">
+    <style>
+        /* element selector  */
+        p{
+            border: 2px;
+        }
+        h5{
+            color: red;
+            background-color: black;
+        }
+        /* id selector  */
+        #usingID{
+            color: rgb(248, 120, 15);
+        }
+        .usingclass{
+            color: darkviolet;
+
+        }
+        /* class selector  */
+        .forbg{
+            background-color: yellow;
+        }
+/* grouping selector  */
+    footer,span{
+        background-color: yellow;
+    }
+
+    </style>
+</head>
+
+<body>
+    <h3>Here we are learning css </h3>
+    <p>there are three ways to attach css in markup/html</p>
+
+    <p style="color: brown; background-color:yellow;">This is inline css </p>
+
+    <h5 >This is Internal  css </h5>
+
+    <h2>css selectors </h2>
+    <p>this is simple paragraph to demonstrate css selectors</p>
+    <div>
+        <p id="usingID" class="usingclass forbg">
+this paragraph is inside div 
+    </p>
+</div>
+<span>This is span </span>
+<footer>This is footer </footer>
+</body>
+
+</html>
